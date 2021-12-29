@@ -1,4 +1,3 @@
-function Altera() {
 	const materias = document.querySelectorAll('h2');
 		const pontos = new Array();
 		materias.forEach(materia => {
@@ -10,4 +9,3 @@ function Altera() {
 			ut.textContent = ponto;
 			l.append(ut);
 		});
-	}
