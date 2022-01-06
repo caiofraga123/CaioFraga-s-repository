@@ -44,7 +44,7 @@ function selec () {
 	elemento = document.querySelector(`h${num}`);
 	if (elemento != null) {
 		cria();
-	} else if(elemento == null && num < 7){
+	} else if(elemento == null && num <= 6){
 		num = num + 1
 		selec();
 	}
