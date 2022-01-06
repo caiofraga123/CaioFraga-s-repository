@@ -11,14 +11,14 @@ let tam = 3;
 	
     function aumenta() {
 		if (tam < 10) {
-			tam += 0.5;
+			tam += 0.7;
 			mudatam()
 		}
     }
 	
     function diminui() {
         if (tam > 1) {
-			tam -= 0.5;
+			tam -= 0.7;
             mudatam();
         }
 	}
