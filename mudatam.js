@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", selec);
 
 let num = 1;
 
-let tam = 3;
+let tam = 2;
 
     function mudatam() {
         const e = document.querySelector(`h${num}`);
