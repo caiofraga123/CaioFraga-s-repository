@@ -33,6 +33,6 @@ function criaPeca(cor) {
     imagem.setAttribute('src', `./${cor}.png`);
     imagem.setAttribute('width', `${tamanhoCelula-4}px`);
     imagem.setAttribute('height', `${tamanhoCelula-4}px`);
-	  let circle = document.createElement
+    let circle = document.createElement
     return imagem;
 }
