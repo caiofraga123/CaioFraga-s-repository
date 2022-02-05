@@ -55,7 +55,7 @@
             });
         }
 		
-		function altera(text, evento) {
+		function Altera(text, evento) {
 			altera = evento.target.parentNode.id.slice(5)
 			newsave(text,id);
 			evento.target.parentNode.childNodes[1].textContent = text;
@@ -80,7 +80,7 @@
 			botnovo.addEventListener('click', (evento) => {
 				text = window.prompt('Faça uma alteração na tarefa');
 				id = evento.target.parentNode.id.slice(5)
-				altera(text,evento);
+				Altera(text,evento);
 			});
 			return botnovo;
 		}
